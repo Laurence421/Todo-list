@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.delete-btn{
+    cursor: pointer;
+    font-size: 24px;
+    color: #808080;
+}
+.delete-btn:hover{
+    color: #e6e4e4;
+}
+#form input{
+    border: none;
+    background-color:#262626;
+    color: #fff;
+    padding: 5px;
+}
+#form input:active{
+    border: none;
+    background-color:#262626;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+#form h1{
+    color: #81c5f0;
+     color: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+main{
+    padding: 30px  0px 0px 0px;
+}
+
+@media (max-width:2040px) {
+    .list {
+        width:95vh;
+    }
+
+}
+@media (max-width:1023px) {
+    .list {
+        width:78vh;
+    }
+}
+@media (max-width:639px) {
+    .list {
+        width:48vh;
+    }
+}
+
+
+.list{
+    display:flex; 
+    justify-content:space-between; 
+    padding:0px 10px 0px 10px; 
+    margin-bottom:5px;
+    color: #fff;
+    background-color: #333333;
+    height: 72px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.list p{
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    display: fixed;
+    height: auto;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.list input{
+    margin-right: 10px;
+    position: block;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #4EA8DE;
+    appearance: none;
+    cursor: pointer;
+}
+.list input:checked{
+        background-color: #5E60CE;
+        border: 2px solid #5E60CE;
+}
+#todo-list span p{
+    color: #4EA8DE;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
