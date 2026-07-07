@@ -14,3 +14,8 @@
 - [ ] **Task Editing**: Add the ability to update existing task text.
 - [ ] **Mark as Completed**: Implement a checkbox or strike-through line toggle for finished tasks.
 - [ ] **Local Storage Integration**: Save tasks in the browser so they do not disappear when refreshing the page.
+
+## 🎯 Credits & Inspiration
+*Layout design credit: https://www.figma.com/design/YLENohMO6wKAeMEkCODytQ/ToDo-List-%F0%9F%91%85--Community-?node-id=0-1&p=f&t=Qh18mHXh82KWhWvc-0
+*
+*   *Note: This project is a front-end cloning practice to improve my HTML, CSS, and JavaScript skills.*
