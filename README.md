@@ -13,3 +13,4 @@
 ## 🚧 Roadmap (Future Enhancements)
 - [ ] **Task Editing**: Add the ability to update existing task text.
 - [ ] **Mark as Completed**: Implement a checkbox or strike-through line toggle for finished tasks.
+- [ ] **Local Storage Integration**: Save tasks in the browser so they do not disappear when refreshing the page.
